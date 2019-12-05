@@ -1,14 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from "react";
 import './App.css';
+import RegisterContainerForm from './components/RegisterContainerForm'
 
-function App() {
+export default class App extends Component {
+  render() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
+    <div>
+      <RegisterContainerForm/>
     </div>
   );
 }
+}
 
-export default App;
+
