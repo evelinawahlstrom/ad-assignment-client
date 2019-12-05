@@ -78,7 +78,7 @@ export default class RegisterContainerForm extends Component {
                         className="form-control mb-1 w-50"
                     >
                     </input>
-                    <button type="submit" className="btn btn-danger w-30">Signup</button>
+                    <button type="submit" className="btn btn-danger w-30">Register</button>
                 </form>
             </div>
             </div>
