@@ -28,12 +28,27 @@ const useStyles = makeStyles(theme => ({
     alignSelf: 'stretch',
     height: 200,
     margin: 'auto',
+    /// change auto so that it's lower on the screen
     }, 
+    title: {
+        color: 'white',
+        fontSize: 20,
+    },
+    text: {
+        color: 'white',
+    },
     item2: {
     alignSelf: 'stretch',
-    width: 50,
+    width: 100,
     height: 200,
     margin: 'auto'
+    },
+    bigAvatar: {
+    width: 84,
+    height: 53,
+    backgroundImage: `url(${asset3})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'contain'
     },
   }));
   
@@ -46,90 +61,67 @@ const useStyles = makeStyles(theme => ({
         <Box display="flex" p={1} 
         className={classes.image}>
         <Box p={1} mt={2} flexGrow={1} className={classes.item1}>
-        <h1>>REDIFINING MOBILE ADVERTISING</h1>
-        <b><p>Please use this form to register.<br/>
-        If you are a member, please <u>login.</u></p></b>
+        <p className={classes.title}>REDIFINING MOBILE 
+        <br/>ADVERTISING</p>
+        <p className={classes.text}>Please use this form to register.<br/>
+        If you are a member, please <u>login.</u></p>
       </Box>
       <Box p={1} 
       flexGrow={3.5} bgcolor="white" className={classes.item2}>
-    </Box>
+      <Avatar variant="square" alt="Adludio logo" className={classes.bigAvatar}/>
+      <p>Register</p>
+      <form className={classes.form} noValidate onSubmit={onSubmit}>
+            <TextField
+              variant='outlined'
+              margin='normal'
+              required
+            //   fullWidth
+              name='fullName'
+              label='Full Name'
+              type='text'
+              id='fullName'
+            //   autoComplete='current-code'
+              onChange={onChange}
+            //   value={values.code}
+            />
+            <TextField
+            variant='outlined'
+            margin='normal'
+            required
+            // fullWidth
+            name='email'
+            label='E-mail'
+            type='text'
+            id='email'
+            // autoComplete='current-code'
+            onChange={onChange}
+          //   value={values.code}
+          />
+          <TextField
+          variant='outlined'
+          margin='normal'
+          required
+        //   fullWidth
+          name='password'
+          label='Password'
+          type='password'
+          id='password'
+        //   autoComplete='current-code'
+          onChange={onChange}
+        //   value={values.code}
+        />
+            <Button
+              type='submit'
+              fullWidth
+              variant='contained'
+              color='primary'
+              className={classes.onSubmit}>
+              Register
+            </Button>
+            <Box mt={5}></Box>
+          </form>
+      </Box>
         </Box>
       </div>
     );
   }
-
-// const useStyles = makeStyles(theme => ({
-//     image: {
-//       backgroundImage: `url(${asset2})`,
-//       height: '100vh',
-//     },
-//     bigAvatar: {
-//         width: 84,
-//         height: 53,
-//         backgroundImage: `url(${asset3})`,
-//         backgroundRepeat: 'no-repeat',
-//         backgroundSize: 'contain'
-//     },
-//     paper: {
-//       padding: theme.spacing(1),
-//       textAlign: 'center',
-//       alignItems: 'center',
-//     },
-//     form: {
-//       width: '60%', // Fix IE 11 issue.
-//       margin: theme.spacing(1),
-//       alignItems: 'center'
-//     },
-//     submit: {
-//       margin: theme.spacing(3, 0, 2),
-//     },
-//   }));
-  
-//   export default function RegisterForm(props) {
-//     console.log(props.values);
-//     const classes = useStyles();
-//     const { onSubmit, onChange, values } = props;
-  
-//     // if (!props.values) return 'wating';
-//     return (
-//       <Grid container component='main' className={classes.image}>
-//         <CssBaseline />
-//         <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
-//           <div className={classes.paper}>
-//           <Avatar variant="square" alt="Adludio logo" className={classes.bigAvatar}/>
-//             <Typography component='h1' variant='h5'>
-//               Login
-//             </Typography>
-//             {props.valid ? <p>Please login to get to the Admissions Test</p>
-//               : <p>Code must not be empty</p>}
-//             <form className={classes.form} noValidate onSubmit={onSubmit}>
-//               <Button
-//                 type='submit'
-//                 fullWidth
-//                 variant='contained'
-//                 color='primary'
-//                 className={classes.onSubmit}>
-//                 Login
-//               </Button>
-  
-//               <Box mt={5}></Box>
-//             </form>
-//           </div>
-//         </Grid>
-//       </Grid>
-//     );
-//   }
-
-//   <TextField
-//                 variant='outlined'
-//                 margin='normal'
-//                 required
-//                 fullWidth
-//                 name='code'
-//                 label='Your personal code'
-//                 type='code'
-//                 id='code'
-//                 autoComplete='current-code'
-//                 onChange={onChange}
-//                 value={values.code}
-//               />
