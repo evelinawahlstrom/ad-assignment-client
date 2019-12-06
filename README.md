@@ -1,4 +1,4 @@
-# ADLUDIO ASSIGNMENT 
+ # :woman_technologist: ADLUDIO ASSIGNMENT :woman_technologist: 
 ## What this project is about:
 
 Two tasks were given to me from Adludio to evalutate my technical skills as a junior developer:
