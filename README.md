@@ -55,3 +55,4 @@ Follow my progress developing Task 1 in the **[Projects folder](https://github.c
 - Customize the FAB button to be of the color purple
 - Make the boxes responsive to the page
 - Add padding/margin to the boxes so their inlined from the container (backgroundImage) - wasn't able to figure out this yet.
+- Enable the google-register to be saved in the database
