@@ -33,4 +33,9 @@ React & dependencies needed , Redux, superagent react-google-login, Material-UI
 
 5. Run npm start. The app runs in the development mode on http://localhost:3000 in the browser.
 
+## Create React App
+
+This project was scaffolded using the create-react-app cli.
+
+**[The standard create-react-app docs can be found in here](./create-react-app-docs.md)**
 
