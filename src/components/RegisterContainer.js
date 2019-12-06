@@ -19,7 +19,7 @@ export default class RegisterContainer extends Component {
                 password: this.state.password
             })
             .catch(err => console.log(err))
-        this.setState({
+            this.setState({
             fullName: "",
             email: "",
             password: ""
@@ -31,17 +31,14 @@ export default class RegisterContainer extends Component {
         });
     };
     render() {
-        // const responseGoogle = (response) => {
-        //     console.log(response)
-        //   }
         return (
             <div>
                 <div>
-                <RegisterForm
-                    onSubmit={this.onSubmit}
-                    onChange={this.onChange}
-                    values={this.state}
-                />
+                    <RegisterForm
+                        onSubmit={this.onSubmit}
+                        onChange={this.onChange}
+                        values={this.state}
+                    />
                 </div>
             </div>
         )
