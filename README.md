@@ -29,7 +29,8 @@ React & dependencies needed , Redux, superagent react-google-login, Material-UI
 3. cd into the folder adludio-client-2
 
 4. Run npm install and Before launching the app( with npm start ), please make sure that the server side is up and running.
+-  Checkout the **[Server ReadMe](https://github.com/evelinawahlstrom/ad-assignment-server)** to install and run the server.
 
 5. Run npm start. The app runs in the development mode on http://localhost:3000 in the browser.
 
-6. Checkout the **[Server ReadMe](https://github.com/evelinawahlstrom/ad-assignment-server)** to install and run the server.
+
