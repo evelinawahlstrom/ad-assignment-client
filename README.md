@@ -42,4 +42,8 @@ This project was developer with the help of using the create-react-app cli.
 
 
 ## Features working
+- The register form is working and when registering (with a unique email) is complete, the email is saved in the database. 
+- The google-register is working but it's (for now only) not saved in the database BUT consoled in the console.
+
 ## My progress
+Follow my progress developing Task 1 in the **[Projects folder](https://github.com/evelinawahlstrom/ad-assignment-client/projects)
