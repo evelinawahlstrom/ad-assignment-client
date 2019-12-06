@@ -13,6 +13,7 @@ Please try to build the​ login.png​ screen using FE technologies that you're
 - **[Technologies used](#technologies-used)**
 - **[How to install](#how-to-install)**
 - **[Create React App docs](#create-react-app)**
+- **[Features working](#features-working)**
 - **[My progress](#my-progress)**
 
 ## Technologies used
@@ -35,7 +36,10 @@ React & dependencies needed , Redux, superagent react-google-login, Material-UI
 
 ## Create React App
 
-This project was scaffolded using the create-react-app cli.
+This project was developer with the help of using the create-react-app cli.
 
 **[The standard create-react-app docs can be found in here](./create-react-app-docs.md)**
 
+
+## Features working
+## My progress
