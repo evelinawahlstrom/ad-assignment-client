@@ -9,6 +9,8 @@ Two tasks were given to me from Adludio to evalutate my technical skills as a ju
 Please try to build the​ login.png​ screen using FE technologies that you're familiar with. 
 ​login.png and assets are attached in the same zipped file.
 
+![Screenshot 2019-12-06 at 11 53 43](https://user-images.githubusercontent.com/54844766/70305954-12ff5e80-181f-11ea-8b9e-1af9c6b54cdb.png)
+
 ## Table of contents:
 - **[Technologies used](#technologies-used)**
 - **[How to install](#how-to-install)**
