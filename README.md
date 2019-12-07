@@ -1,7 +1,7 @@
  # :woman_technologist: ADLUDIO ASSIGNMENT :woman_technologist: 
 ## What this project is about:
 
-Two tasks were given to me from Adludio to evalutate my technical skills as a junior developer:
+Two tasks were given to me from Adludio to evalutate my technical skills as a junior developer. I was given three days to complete the tasks:
 - Task 1: Mainly Front End 
 - Task 2: Backend - see related repository: **[Adludio server](https://github.com/evelinawahlstrom/ad-assignment-server)**
 
@@ -45,7 +45,7 @@ This project was developer with the help of using the create-react-app cli.
 ## Features working
 
 - The register form is working and when registering (with a unique email) is complete, the email is saved in the database. 
-- The google-register is working but it's (for now only) not able to be saved in the database BUT consoled in the console. 
+- The google-register is working but it's (for now) not able to be saved in the database BUT consoled in the console. 
 
 ## My progress
 Follow my progress developing Task 1 in the **[Projects folder](https://github.com/evelinawahlstrom/ad-assignment-client/projects)**
