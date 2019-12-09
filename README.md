@@ -21,7 +21,7 @@ Please try to build the​ login.png​ screen using FE technologies that you're
 - **[To do](#to-do)**
 
 ## Technologies used
-React & dependencies needed , Redux, superagent react-google-login, Material-UI
+React & dependencies needed , Redux, superagent, react-google-login, Material-UI
 
 ## How to install
 
