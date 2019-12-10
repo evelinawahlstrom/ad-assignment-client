@@ -17,6 +17,7 @@ Please try to build the​ login.png​ screen using FE technologies that you're
 - **[How to install](#how-to-install)**
 - **[Create React App docs](#create-react-app)**
 - **[Features working](#features-working)**
+- **[Gif showing my login page](#gif-showing-my-login-page)**
 - **[My progress](#my-progress)**
 - **[To do](#to-do)**
 
@@ -48,6 +49,7 @@ This project was developer with the help of using the create-react-app cli.
 - The register form is working and when registering (with a unique email) is complete, the email is saved in the database. 
 - The google-register is working but it's (for now) not able to be saved in the database BUT consoled in the console. 
 
+## Gif showing my login page
 ![adludio2](https://user-images.githubusercontent.com/54844766/70533615-c044e000-1b59-11ea-85a2-10ad0f866f6f.gif)
 
 
